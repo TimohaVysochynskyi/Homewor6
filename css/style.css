@@ -1,0 +1,16 @@
+.logo {
+}
+
+.logo-img {
+  height: 50px;
+  width: 65px;
+  display: inline-block;
+}
+
+.list {
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+}
