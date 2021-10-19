@@ -1,16 +1,73 @@
 .logo {
+  float: left;
 }
 
 .logo-img {
-  height: 50px;
-  width: 65px;
-  display: inline-block;
+  width: 80px;
 }
 
-.list {
+.header-col-center {
   text-align: center;
+  margin-right: 100px;
+}
+
+.header-col-right {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.nav {
+  float: left;
+  margin-top: 5px;
+  margin-left: 200px;
 }
 
 .item {
   display: inline-block;
+  margin-right: 20px;
+}
+
+.header {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: black solid 2px;
+  border-radius: 10px;
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 100px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: cornflowerblue;
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+
+.circle-small {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border: 1px black solid;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.circle-small-1 {
+  left: 50%;
+  bottom: 25%;
+}
+
+.circle-small-2 {
+  left: 10px;
+  bottom: 30px;
+}
+
+.circle-small-3 {
+  left: 150px;
+  top: 50px;
 }
